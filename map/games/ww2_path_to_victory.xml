@@ -1598,7 +1598,7 @@
       <result resourceOrUnit="factory_upgrade" quantity="1"/>
     </productionRule>
     <productionRule name="buyAirfield">
-      <cost resource="PUs" quantity="18"/>
+      <cost resource="PUs" quantity="15"/>
       <result resourceOrUnit="airfield" quantity="1"/>
     </productionRule>
     <productionRule name="buyHarbour">
@@ -16030,8 +16030,6 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Reduced Unit Costs:</b> Transports now cost 6. Cruisers 11. Battleships 18. And tactical bombers 10. <br><br>
 
-<b>Increased Airfield Cost:</b> Airfields now cost 18. <br><br>
-
 <b>Capital Ships:</b> Battleships and carriers may only be built from territories that have both factories and harbours. <br><br>
 
 <b>Sicily:</b> Sicily is now connected to Southern Italy. <br><br>
@@ -16135,7 +16133,6 @@ Fixed Siberia factory bug to ensure destruction upon capture. <br>
 Removed infantry from United Kingdom. <br>
 Fixed guerrilla spawning in Honan.<br>
 Supplemented game notes.<br>
-Airfield cost increased to 18.<br>
 
 <br> <br>
 <hr>
