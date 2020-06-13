@@ -15236,7 +15236,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
       <unitPlacement unitType="factory_minor" territory="Quebec" quantity="1" owner="British"/>
       <unitPlacement unitType="harbour" territory="Quebec" quantity="1" owner="British"/>
       <unitPlacement unitType="airfield" territory="Iceland" quantity="1" owner="British"/>
-      <unitPlacement unitType="infantry" territory="United Kingdom" quantity="3" owner="British"/>
+      <unitPlacement unitType="infantry" territory="United Kingdom" quantity="2" owner="British"/>
       <unitPlacement unitType="mech_infantry" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="United Kingdom" quantity="2" owner="British"/>
       <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="British"/>
