@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="2.0"/>
+        <info name="WW2 Path to Victory" version="3.0"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -539,7 +539,6 @@
                 <connection t1="Northern Manchuria" t2="Amur"/>
                 <connection t1="Korea" t2="6 Sea Zone"/>
                 <connection t1="Korea" t2="Amur"/>
-                <connection t1="Korea" t2="20 Sea Zone"/>
                 <connection t1="Marianas" t2="22 Sea Zone"/>
                 <connection t1="Siam" t2="Shan State"/>
                 <connection t1="Shantung" t2="Kiangsu"/>
@@ -3796,7 +3795,7 @@
 <attachment name="canalAttachmentTsugaru" attachTo="7 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsugaru Strait"/>
       <option name="landTerritories" value="Japan"/>
-      <option name="excludedUnits" value="fighter:tactical_bomber:bomber"/>
+      <option name="excludedUnits" value="fighter:tactical_bomber:bomber:submarine"/>
     </attachment>
     <attachment name="canalAttachmentTsugaru" attachTo="6 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsugaru Strait"/>
@@ -3908,7 +3907,7 @@
     </attachment>
     <attachment name="objectiveAttachment_Japanese_3_Control_Honolulu_Or_Sydney_Or_Calcutta_Or_Western_United_States" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Hawaiian Islands:New South Wales:Eastern India:Western United States" count="each"/>
+      <option name="directOwnershipTerritories" value="Hawaiian Islands:New South Wales:Eastern India:Western United States" count="each"/>
     </attachment>
     <attachment name="objectiveAttachment_Japanese_4_Control_Dutch_East_Indies" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
@@ -15988,7 +15987,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 2.0</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 3.0</b></span>
         </div>
 <br>
 <hr>
@@ -16036,7 +16035,7 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Sicily:</b> Sicily is now connected to Southern Italy. <br><br>
 
-<b>Tsugaru Strait:</b> Passage through the Tsugaru Strait, connecting sea zones 6 and 7, requires ownership of Japan.<br><br>
+<b>Tsugaru Strait:</b> Passage through the Tsugaru Strait, connecting sea zones 6 and 7, requires ownership of Japan. Submarines, however, may pass through freely regardless of ownership.<br><br>
 
 <b>Restricted US Movement When Not at War:</b> When not at war with Japan, naval units belonging to the United States may not end their turn in sea zones adjacent to Japanese territory. The exceptions to this rule are sea zones 22 (Guam) and 32 (Wake Island).<br><br>
 
@@ -16057,6 +16056,9 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 </ul>
 <b>RUSSIA</b>
 <li><b>REVISED OBJECTIVE - Lend Lease:</b> Russia no longer receives a 2 PU boost from an unprovoked Japanese declaration of war. Instead, the Mongolians automatically turn Russian as aforesaid.</li>
+</ul>
+<b>JAPAN</b>
+<li><b>REVISED OBJECTIVE - Control of Sydney, Honolulu, Calcutta:</b> 5 PUs for each territory that is Japanese controlled (as opposed to "Axis controlled"): New South Wales, Hawaii, Eastern India.
 </ul>
 <b>UNITTED STATES</b>
 <li><b>NEW OBJECTIVE - Strategic Initiative:</b> 5 PUs if Americans have a land unit in at least one Axis capitol.</li>
@@ -16119,7 +16121,7 @@ Fly-over restrictions applicable to other Neutral territories do not apply to Vi
 <br><br>
 <b>Change Log</b><br><br>
 
-1.1
+2.0
 <br><br>
 Corrected objectives panel with correct territory and sea zone names. <br>
 Fixed graphical issues with map.<br>
@@ -16134,7 +16136,15 @@ Fixed Americans starting income to match starting production. <br>
 Fixed Siberia factory bug to ensure destruction upon capture. <br>
 Removed infantry from United Kingdom. <br>
 Fixed guerrilla spawning in Honan.<br>
-Supplemented game notes.<br>
+Supplemented game notes.<br><br>
+
+3.0
+<br><br>
+Redrew Sea Zone 6 so that it completely envelops Korea.<br>
+Added PU marker to Gorky to reflect actual value.<br>
+Opened Tsugaru Strait to enemy submarine travel.<br>
+Changed Japanese objective to require direct ownership (as opposed to Axis ownership) of Honolulu, Calcutta, Sydney.
+
 
 <br> <br>
 <hr>
