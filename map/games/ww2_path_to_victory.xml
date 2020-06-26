@@ -15239,7 +15239,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
       <unitPlacement unitType="mech_infantry" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="United Kingdom" quantity="2" owner="British"/>
       <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="British"/>
-      <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="3" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="4" owner="British"/>
       <unitPlacement unitType="airfield" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="harbour" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="factory_major" territory="United Kingdom" quantity="1" owner="British"/>
