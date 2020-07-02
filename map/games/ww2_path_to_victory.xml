@@ -15180,6 +15180,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
       <unitPlacement unitType="harbour" territory="Western United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="factory_minor" territory="Western United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="infantry" territory="Hawaiian Islands" quantity="2" owner="Americans"/>
+	<unitPlacement unitType="marine" territory="Hawaiian Islands" quantity="1" owner="Americans"/>
       <unitPlacement unitType="fighter" territory="Hawaiian Islands" quantity="2" owner="Americans"/>
       <unitPlacement unitType="airfield" territory="Hawaiian Islands" quantity="1" owner="Americans"/>
       <unitPlacement unitType="harbour" territory="Hawaiian Islands" quantity="1" owner="Americans"/>
@@ -16147,9 +16148,18 @@ Supplemented game notes.<br><br>
 Redrew Sea Zone 6 so that it completely envelops Korea.<br>
 Added PU marker to Gorky to reflect actual value.<br>
 Opened Tsugaru Strait to enemy submarine travel.<br>
-Changed Japanese objective to require direct ownership (as opposed to Axis ownership) of Honolulu, Calcutta, Sydney.
+Changed Japanese objective to require direct ownership (as opposed to Axis ownership) of Honolulu, Calcutta, Sydney.<br><br>
 
-
+4.0
+<br><br>
+Fixed spelling mistakes in game notes. <br>
+Added 'Global' victory condition. <br>
+Changed carriers to 1 defense. <br>
+Added note regarding carrier scramble to empty sea zones. <br>
+Added note defining "islands." <br>
+Fixed ANZAC objective in Objectives tab. <br>
+Lowered Kamakaze marker in sea zone 21. <br>
+Added U.S. Marine to Hawaii. <br>
 <br> <br>
 <hr>
 <div style="text-align: center;">
