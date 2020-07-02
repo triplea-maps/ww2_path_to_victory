@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="3.0"/>
+        <info name="WW2 Path to Victory" version="4.0"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -2455,7 +2455,7 @@
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="0"/>
-      <option name="defense" value="2"/>
+      <option name="defense" value="1"/>
       <option name="carrierCapacity" value="2"/>
 	<option name="isAirBase" value="true"/>
    	<option name="maxScrambleCount" value="1"/>
@@ -15239,7 +15239,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
       <unitPlacement unitType="mech_infantry" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="United Kingdom" quantity="2" owner="British"/>
       <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="British"/>
-      <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="4" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="3" owner="British"/>
       <unitPlacement unitType="airfield" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="harbour" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="factory_major" territory="United Kingdom" quantity="1" owner="British"/>
@@ -16019,9 +16019,9 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Land Scramble:</b> An airfield may scramble up to three planes to adjacent land battles in which there are already defending units (i.e., no scramble option for otherwise uncontested territories).<br><br>
 
-<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones/territories. The number of planes that may be scrambled from a particular sea zone is determined solely by the number of undamaged carriers there (one per carrier), irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
+<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones/territories where there are defending surface warships or land units. The number of planes that may be scrambled from a particular sea zone is determined solely by the number of undamaged carriers there (one per carrier), irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
 
-<b>Note - Return of Scrambled Planes:</b> A scrambling plane must return to the place from which it scrambled, unless that place is no longer a viable landing spot (either because the territory was taken, or the scrambling carrier was damaged/destroyed). If the place from which the plane scrambled is no longer a viable landing spot, the plane may land in any available spot that is adjacent to or in the battle zone itself. Note: Per the foregoing rule, scrambled planes may land in eligible Friendly-Neutral territories that have already been attacked by the other side (play enforced). <br><br>
+<b>Note - Return of Scrambled Planes:</b> A scrambling plane must return to the place from which it scrambled, unless that place is no longer a viable landing spot (either because the territory was taken, or the scrambling carrier was damaged/destroyed). If the place from which the plane scrambled is no longer a viable landing spot, the plane may land in any available spot that is adjacent to or in the battle zone itself. Note: Per the foregoing rule, scrambled planes may land in eligible Friendly-Neutral territories that have already been attacked by the other side (player enforced). <br><br>
 
 <b>Revised Mech Rules:</b> Mechs now cost 5 PUs. They are supportable by tanks in both attack and defense (add one to their combat value).<br><br>
 
@@ -16033,6 +16033,8 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Capital Ships:</b> Battleships and carriers may only be built from territories that have both factories and harbours. <br><br>
 
+<b>Revised Definition of "Island":</b> Factories still may not be built on islands. An "island" is any grouping of fewer than three contiguous land territories that is surrounded by water (e.g., Japan is not an "island" for purposes of factory placement, but Philippines is.<br><br>
+
 <b>Sicily:</b> Sicily is now connected to Southern Italy. <br><br>
 
 <b>Tsugaru Strait:</b> Passage through the Tsugaru Strait, connecting sea zones 6 and 7, requires ownership of Japan. Submarines, however, may pass through freely regardless of ownership.<br><br>
@@ -16043,7 +16045,9 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Civil War Penalty:</b> China starts the game with 4 fewer PUs than its total production.<br><br>  
 
-<b>Revised Victory Conditions in Pacific:</b> Japan must capture seven Victory Cities.<br><br>
+<b>Revised Victory Conditions for a Pacific Victory:</b> Japan must capture seven Victory Cities.<br><br>
+
+<b>Global Victory:</b> In addition to achieving a theater-specific victory, Axis can win the game by capturing and holding for one complete turn 13 victory cities, globally.<br><br>
 <div style="text-align: center;">
 <b>**REVISIONS FROM GLOBAL1940 BALANCE MOD NATIONAL OBJECTIVES**</b></div><br><hr>
 <br>
@@ -16060,7 +16064,7 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 <b>JAPAN</b>
 <li><b>REVISED OBJECTIVE - Control of Sydney, Honolulu, Calcutta:</b> 5 PUs for each territory that is Japanese controlled (as opposed to "Axis controlled"): New South Wales, Hawaii, Eastern India.
 </ul>
-<b>UNITTED STATES</b>
+<b>UNITED STATES</b>
 <li><b>NEW OBJECTIVE - Strategic Initiative:</b> 5 PUs if Americans have a land unit in at least one Axis capitol.</li>
 <li><b>REVISED OBJECTIVE - Control of Philippines:</b> 5 PUs if Americans are at war and control both Manilla and Davao.</li>
 </ul>
