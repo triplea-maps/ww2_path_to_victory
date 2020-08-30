@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="4.0"/>
+        <info name="WW2 Path to Victory" version="4.1"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -5310,6 +5310,18 @@
       <option name="when" value="before:chineseCombatMove"/>
     </attachment>
 
+ <attachment name="triggerAttachment_Chinese_Guerilla_Szechwan" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_Japanese_Own_Szechwan:conditionAttachment_Japanese_Own_Szechwan_Empty:Guerrillas"/>
+      <option name="placement" value="Szechwan:infantry"/>
+      <option name="uses" value="999"/>
+      <option name="when" value="before:chineseCombatMove"/>
+    </attachment>
+<attachment name="triggerAttachment_Chinese_Guerilla_Szechwan" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_Japanese_Own_Szechwan:conditionAttachment_Japanese_Own_Szechwan_Empty:Guerrillas"/>
+      <option name="placement" value="Szechwan:infantry"/>
+      <option name="uses" value="999"/>
+      <option name="when" value="before:chineseCombatMove"/>
+    </attachment>
 
     <attachment name="triggerAttachment_Chinese_Guerilla_Honan" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Japanese_Own_Honan:conditionAttachment_Japanese_Own_Honan_Empty:Guerrillas"/>
@@ -16159,7 +16171,11 @@ Added note regarding carrier scramble to empty sea zones. <br>
 Added note defining "islands." <br>
 Fixed ANZAC objective in Objectives tab. <br>
 Lowered Kamakaze marker in sea zone 21. <br>
-Added U.S. Marine to Hawaii. <br>
+Added U.S. Marine to Hawaii. <br> <br>
+
+4.1
+<br><br>
+Fixed guerilla spawn in Szechwan.<br>
 <br> <br>
 <hr>
 <div style="text-align: center;">
