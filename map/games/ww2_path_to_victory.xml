@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="4.1"/>
+        <info name="WW2 Path to Victory" version="4.2"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -367,9 +367,24 @@
                 <territory name="55 Sea Zone" water="true"/>
                 <territory name="Suriname"/>
                 <territory name="49 Sea Zone" water="true"/>
+		<territory name="132 Sea Zone" water="true"/>
 
                 <!-- Territory Connections -->
-                <connection t1="Western Germany" t2="116 Sea Zone"/>
+<connection t1="132 Sea Zone" t2="38 Sea Zone"/>
+<connection t1="132 Sea Zone" t2="Malaya"/>
+<connection t1="132 Sea Zone" t2="Shan State"/>
+<connection t1="132 Sea Zone" t2="Siam"/>
+<connection t1="132 Sea Zone" t2="37 Sea Zone"/>
+<connection t1="132 Sea Zone" t2="44 Sea Zone"/>
+<connection t1="132 Sea Zone" t2="43 Sea Zone"/>
+
+<connection t1="38 Sea Zone" t2="132 Sea Zone"/>
+<connection t1="38 Sea Zone" t2="42 Sea Zone"/>
+<connection t1="38 Sea Zone" t2="43 Sea Zone"/>
+<connection t1="38 Sea Zone" t2="39 Sea Zone"/>
+<connection t1="38 Sea Zone" t2="Sumatra"/>
+<connection t1="38 Sea Zone" t2="Malaya"/>
+<connection t1="Western Germany" t2="116 Sea Zone"/>
                 <connection t1="Western Germany" t2="Germany"/>
                 <connection t1="Western Germany" t2="Switzerland"/>
                 <connection t1="Western Germany" t2="Austria"/>
@@ -385,7 +400,6 @@
                 <connection t1="Poland" t2="Germany"/>
                 <connection t1="Poland" t2="Baltic States"/>
                 <connection t1="Romania" t2="Bessarabia"/>
-           
                 <connection t1="Romania" t2="102 Sea Zone"/>
                 <connection t1="Slovakia Hungary" t2="Romania"/>
                 <connection t1="Slovakia Hungary" t2="Germany"/>
@@ -674,7 +688,6 @@
                 <connection t1="Western India" t2="Central India"/>
                 <connection t1="Western India" t2="81 Sea Zone"/>
                 <connection t1="Western India" t2="Baluchistan"/>
-                <connection t1="Malaya" t2="38 Sea Zone"/>
                 <connection t1="Eastern India" t2="40 Sea Zone"/>
                 <connection t1="Eastern India" t2="Central India"/>
                 <connection t1="Eastern India" t2="Western India"/>
@@ -759,14 +772,7 @@
                 <connection t1="France" t2="Normandy Bordeaux"/>
                 <connection t1="French Central Africa" t2="Nigeria"/>
                 <connection t1="French Central Africa" t2="French West Africa"/>
-                <connection t1="38 Sea Zone" t2="Shan State"/>
-                <connection t1="38 Sea Zone" t2="Sumatra"/>
-                <connection t1="38 Sea Zone" t2="43 Sea Zone"/>
- 		<connection t1="38 Sea Zone" t2="44 Sea Zone"/>
-                <connection t1="38 Sea Zone" t2="44 Sea Zone"/>
                 <connection t1="43 Sea Zone" t2="44 Sea Zone"/>
-                <connection t1="38 Sea Zone" t2="Siam"/>
-                <connection t1="38 Sea Zone" t2="39 Sea Zone"/>
                 <connection t1="99 Sea Zone" t2="Northern Italy"/>
                 <connection t1="99 Sea Zone" t2="97 Sea Zone"/>
                 <connection t1="99 Sea Zone" t2="Yugoslavia"/>
@@ -1233,8 +1239,6 @@
                 <connection t1="Liberia" t2="Sierra Leone"/>
                 <connection t1="Liberia" t2="85 Sea Zone"/>
                 <connection t1="Liberia" t2="French West Africa"/>
-                <connection t1="37 Sea Zone" t2="38 Sea Zone"/>
-                <connection t1="42 Sea Zone" t2="38 Sea Zone"/>
                 <connection t1="37 Sea Zone" t2="Hainan"/>
                 <connection t1="37 Sea Zone" t2="Kwangsi"/>
                 <connection t1="37 Sea Zone" t2="36 Sea Zone"/>
@@ -3621,6 +3625,11 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="38 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
+      <option name="changeUnitOwners" value="British"/>
+      <option name="whenCapturedByGoesTo" value="British:UK_Pacific"/>
+    </attachment>
+ <attachment name="territoryAttachment" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
       <option name="blockadeZone" value="true"/>
       <option name="changeUnitOwners" value="British"/>
       <option name="whenCapturedByGoesTo" value="British:UK_Pacific"/>
@@ -3924,7 +3933,11 @@
       <option name="conditions" value="HomeIslands"/>
       <option name="objectiveValue" value="3"/>
       <option name="atWarPlayers" value="Americans" count="1"/>
-      <option name="directOwnershipTerritories" value="Okinawa:Iwo Jima:Kyushu:Hokkaido" count="2"/>
+      <option name="directOwnershipTerritories" value="Okinawa:Iwo Jima:Kyushu:Hokkaido" count="4"/>
+    </attachment>
+<attachment name="objectiveAttachment_Japanese_7_Vital_Forward_Bases" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="5"/>
+      <option name="alliedOwnershipTerritories" value="Marianas:Marshall Islands:Paulau:Caroline Islands:Gilbert Islands" count="5"/>
     </attachment>
 
  <!-- British Objectives -->
@@ -4044,7 +4057,7 @@
     <attachment name="objectiveAttachment_Americans_9_Vital_Forward_Bases" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="conditions" value="Forward_Bases"/>
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Marianas:Marshall Islands:Paulau:Caroline Islands" count="4"/>
+      <option name="alliedOwnershipTerritories" value="Marianas:Marshall Islands:Paulau:Caroline Islands:Gilbert Islands" count="5"/>
     </attachment>
 
     <!-- Chinese Objectives -->
@@ -16000,7 +16013,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 4.1</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 4.2</b></span>
         </div>
 <br>
 <hr>
@@ -16075,7 +16088,8 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 <li><b>REVISED OBJECTIVE - Lend Lease:</b> Russia no longer receives a 2 PU boost from an unprovoked Japanese declaration of war. Instead, the Mongolians automatically turn Russian as aforesaid.</li>
 </ul>
 <b>JAPAN</b>
-<li><b>REVISED OBJECTIVE - Control of Sydney, Honolulu, Calcutta:</b> 5 PUs for each territory that is Japanese controlled (as opposed to "Axis controlled"): New South Wales, Hawaii, Eastern India.
+<li><b>REVISED OBJECTIVE - Control of Sydney, Honolulu, Calcutta:</b> 5 PUs for each territory that is Japanese controlled (as opposed to "Axis controlled"): New South Wales, Hawaii, Eastern India.</li>
+<li><b>NEW OBJECTIVE - Vital Forward Bases:</b> 5 PUs for controlling Caroline Islands, Marshall Islands, Marianas, Paulau, and Gilbert Islands.</li> 
 </ul>
 <b>UNITED STATES</b>
 <li><b>NEW OBJECTIVE - Strategic Initiative:</b> 5 PUs if Americans have a land unit in at least one Axis capitol.</li>
@@ -16177,11 +16191,18 @@ Added U.S. Marine to Hawaii. <br> <br>
 <br><br>
 Fixed guerilla spawn in Szechwan.<br>
 <br> <br>
+
+4.2
+<br><br>
+Redrew borders of Sea Zones 23 and 24. <br>
+Added Sea Zone 132 by Malaya. <br>
+Added Vital Forward Bases National Objective for Japan. <br>
+Revised Vital Forward Bases National Objective for United States to include Gilbert Islands. <br>
+Fixed Home Islands National Objective for Japan. <br> <br>
+
 <hr>
 <div style="text-align: center;">
 <br><span style="color:3131c7;">Become a recognized member of the NerdHerd and support the content creators of Path to Victory and Balanced Mod at <b>https://www.patreon.com/nerd_herd.</span></div><br><hr>
-
-
 
 
 ]]>
