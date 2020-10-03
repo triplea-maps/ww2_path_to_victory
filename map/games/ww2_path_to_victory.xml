@@ -867,7 +867,7 @@
                 <connection t1="Sumatra" t2="42 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="18 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="35 Sea Zone"/>
-                <connection t1="24 Sea Zone" t2="35 Sea Zone"/>
+                <connection t1="23 Sea Zone" t2="34 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="19 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="Marianas"/>
                 <connection t1="23 Sea Zone" t2="22 Sea Zone"/>
@@ -16194,7 +16194,6 @@ Fixed guerilla spawn in Szechwan.<br>
 
 4.2
 <br><br>
-Redrew borders of Sea Zones 23 and 24. <br>
 Added Sea Zone 132 by Malaya. <br>
 Added Vital Forward Bases National Objective for Japan. <br>
 Revised Vital Forward Bases National Objective for United States to include Gilbert Islands. <br>
