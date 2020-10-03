@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="4.2"/>
+        <info name="WW2 Path to Victory" version="5.0"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -867,7 +867,7 @@
                 <connection t1="Sumatra" t2="42 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="18 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="35 Sea Zone"/>
-                <connection t1="23 Sea Zone" t2="34 Sea Zone"/>
+                <connection t1="24 Sea Zone" t2="35 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="19 Sea Zone"/>
                 <connection t1="23 Sea Zone" t2="Marianas"/>
                 <connection t1="23 Sea Zone" t2="22 Sea Zone"/>
@@ -16013,7 +16013,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 4.2</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.0</b></span>
         </div>
 <br>
 <hr>
@@ -16194,6 +16194,7 @@ Fixed guerilla spawn in Szechwan.<br>
 
 4.2
 <br><br>
+Redrew borders of Sea Zones 23 and 24. <br>
 Added Sea Zone 132 by Malaya. <br>
 Added Vital Forward Bases National Objective for Japan. <br>
 Revised Vital Forward Bases National Objective for United States to include Gilbert Islands. <br>
