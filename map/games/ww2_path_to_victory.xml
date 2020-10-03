@@ -15324,7 +15324,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
       <unitPlacement unitType="airfield" territory="Eastern India" quantity="1" owner="UK_Pacific"/>
       <unitPlacement unitType="harbour" territory="Eastern India" quantity="1" owner="UK_Pacific"/>
       <unitPlacement unitType="factory_major" territory="Eastern India" quantity="1" owner="UK_Pacific"/>
-      <unitPlacement unitType="battleship" territory="38 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="battleship" territory="132 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="destroyer" territory="40 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="cruiser" territory="40 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="transport" territory="40 Sea Zone" quantity="1" owner="British"/>
