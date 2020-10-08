@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="5.0"/>
+        <info name="WW2 Path to Victory" version="5.1"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -2729,6 +2729,7 @@
                    </attachment>
                     <attachment name="territoryAttachment" attachTo="Yenisey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
                         <option name="production" value="1"/>
+		<option name="whenCapturedByGoesTo" value="British:UK_Pacific"/>
                    </attachment>
                     <attachment name="territoryAttachment" attachTo="Northern Belarus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
                         <option name="production" value="1"/>
@@ -16013,7 +16014,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.0</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.1</b></span>
         </div>
 <br>
 <hr>
@@ -16081,7 +16082,7 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 
 <b>GERMANY</b>
 <ul>
-<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one land unit at the end of Germany's turn.</li> 
+<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one German land unit at the end of Germany's turn.</li> 
 <li><b>REVISED OBJECTIVE - Control of Balkans</b> 3 PUs (increased from 2 PUs) if Romania, Yugoslavia, Albania, Bulgaria, Greece, and Crete are Axis or Pro-Axis controlled.</li>
 </ul>
 <b>RUSSIA</b>
@@ -16198,6 +16199,11 @@ Added Sea Zone 132 by Malaya. <br>
 Added Vital Forward Bases National Objective for Japan. <br>
 Revised Vital Forward Bases National Objective for United States to include Gilbert Islands. <br>
 Fixed Home Islands National Objective for Japan. <br> <br>
+
+5.1
+<br><br>
+Clarified text of Atlantic Wall national objective to specify "German" land units. <br>
+Corrected Yenisey alignment to "UK Pacific" when captured by British. <br> <br>
 
 <hr>
 <div style="text-align: center;">
