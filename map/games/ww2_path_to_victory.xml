@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="5.1"/>
+        <info name="WW2 Path to Victory" version="5.2"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -933,6 +933,7 @@
                 <connection t1="117 Sea Zone" t2="118 Sea Zone"/>
                 <connection t1="Southern Persia" t2="82 Sea Zone"/>
                 <connection t1="Southern Persia" t2="Afghanistan"/>
+		<connection t1="Central India" t2="Afghanistan"/>
                 <connection t1="Southern Persia" t2="Iraq"/>
                 <connection t1="Southern Persia" t2="Northeast Persia"/>
                 <connection t1="Southern Persia" t2="Baluchistan"/>
@@ -16014,7 +16015,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.1</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.2</b></span>
         </div>
 <br>
 <hr>
@@ -16204,6 +16205,10 @@ Fixed Home Islands National Objective for Japan. <br> <br>
 <br><br>
 Clarified text of Atlantic Wall national objective to specify "German" land units. <br>
 Corrected Yenisey alignment to "UK Pacific" when captured by British. <br> <br>
+
+5.2
+<br><br>
+Fixed connection between Afghanistan and Central India. <br> <br>
 
 <hr>
 <div style="text-align: center;">
