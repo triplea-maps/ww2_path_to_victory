@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="5.2"/>
+        <info name="WW2 Path to Victory" version="6.0"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -849,7 +849,7 @@
                 <connection t1="Olgiy" t2="Dzavhan"/>
                 <connection t1="Olgiy" t2="Timguska"/>
                 <connection t1="Olgiy" t2="Northern Sinkiang"/>
-                <connection t1="46 Sea Zone" t2="43 Sea Zone"/>
+                <connection t1="45 Sea Zone" t2="56 Sea Zone"/>
                 <connection t1="46 Sea Zone" t2="35 Sea Zone"/>
                 <connection t1="46 Sea Zone" t2="47 Sea Zone"/>
                 <connection t1="46 Sea Zone" t2="45 Sea Zone"/>
@@ -3628,6 +3628,13 @@
     <attachment name="territoryAttachment" attachTo="38 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="changeUnitOwners" value="British"/>
+	<option name="blockadeZone" value="true"/>
+      <option name="whenCapturedByGoesTo" value="British:UK_Pacific"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="43 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="changeUnitOwners" value="British"/>
+	<option name="blockadeZone" value="true"/>
       <option name="whenCapturedByGoesTo" value="British:UK_Pacific"/>
     </attachment>
  <attachment name="territoryAttachment" attachTo="132 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -16015,7 +16022,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 5.2</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.0</b></span>
         </div>
 <br>
 <hr>
@@ -16047,7 +16054,7 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Land Scramble:</b> An airfield may scramble up to three planes to adjacent land battles in which there are already defending units (i.e., no scramble option for otherwise uncontested territories).<br><br>
 
-<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones/territories where there are defending surface warships or land units. The number of planes that may be scrambled from a particular sea zone is determined solely by the number of undamaged carriers there (one per carrier), irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
+<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones/territories where there are defending surface warships or land units. No more than three planes may be scrambled from a particular sea zone in this manner. The number of planes that may be scrambled from a sea zone (up to the three-plane maximum) is determined by the number of undamaged carriers in that sea zone (one per carrier). This is true irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
 
 <b>Note - Return of Scrambled Planes:</b> A scrambling plane must return to the place from which it scrambled, unless that place is no longer a viable landing spot (either because the territory was taken, or the scrambling carrier was damaged/destroyed). If the place from which the plane scrambled is no longer a viable landing spot, the plane may land in any available spot that is adjacent to or in the battle zone itself. Note: Per the foregoing rule, scrambled planes may land in eligible Friendly-Neutral territories that have already been attacked by the other side (player enforced). <br><br>
 
@@ -16067,7 +16074,7 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Tsugaru Strait:</b> Passage through the Tsugaru Strait, connecting sea zones 6 and 7, requires ownership of Japan. Submarines, however, may pass through freely regardless of ownership.<br><br>
 
-<b>Restricted US Movement When Not at War:</b> When not at war with Japan, naval units belonging to the United States may not end their turn in sea zones adjacent to Japanese territory. The exceptions to this rule are sea zones 22 (Guam) and 32 (Wake Island).<br><br>
+<b>Restricted US Movement When Not at War:</b> When not at war with Japan, naval units belonging to the United States may not end their turn in sea zones adjacent to Japanese territory. The exceptions to this rule are sea zones 22 (Guam) and 32 (Wake Island). Additionally, when not at war, U.S. naval movement in the Atlantic is confined to sea zones adjacent to U.S. territory and sea zone 105.<br><br>
 
 <b>Great Purge Penalty:</b> Russia starts the game with 10 fewer PUs than its total production.<br><br>  
 
@@ -16100,7 +16107,7 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 <b>CHINA</b>
 <li><b>REVISED OBJECTIVE - Burma Road:</b> 3 PUs and may build artillery if the Allies control Eastern India (as opposed to “India”), Burma, Yunnan, and Szechwan.
 </ul>
-<b>Note - Chinese Guerillas:</b> As in Balanced Mod, at the start of China's turn, a Chinese infantry is spawned in each non-coastal Chinese territory under Axis control that is not garrisoned by at least one Axis land unit (i.e., infantry, marine, mech infantry, artillery, or armor). These "guerrillas" engage in combat wherever they are spawned and may not be moved until China's next turn. 
+<b>Note - Chinese Guerillas:</b> As in Balanced Mod, at the start of China's turn, a Chinese infantry is spawned in each non-coastal, non-Manchurian Chinese territory under Axis control that is not garrisoned by at least one Axis land unit (i.e., infantry, marine, mech infantry, artillery, or armor). These "guerrillas" engage in combat wherever they are spawned and may not be moved until China's next turn. 
 
  <br><br>
 
@@ -16209,6 +16216,16 @@ Corrected Yenisey alignment to "UK Pacific" when captured by British. <br> <br>
 5.2
 <br><br>
 Fixed connection between Afghanistan and Central India. <br> <br>
+
+6.0
+<br><br>
+Redrew border between sea zones 46 and 56. <br> 
+Updated notes to include three-plane carrier scramble restriction. <br> 
+Added "non-Manchurian" clarification on Chinese Guerrilla rule. <br> 
+Added note on Atlantic naval restriction during U.S. neutrality. <br> <br>
+
+
+ <br> <br>
 
 <hr>
 <div style="text-align: center;">
