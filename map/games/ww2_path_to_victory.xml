@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="6.0"/>
+        <info name="WW2 Path to Victory" version="6.1"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -16022,7 +16022,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.0</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.1</b></span>
         </div>
 <br>
 <hr>
@@ -16090,8 +16090,9 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 
 <b>GERMANY</b>
 <ul>
-<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one German land unit at the end of Germany's turn.</li> 
+<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one German unit at the end of Germany's turn.</li> 
 <li><b>REVISED OBJECTIVE - Control of Balkans</b> 3 PUs (increased from 2 PUs) if Romania, Yugoslavia, Albania, Bulgaria, Greece, and Crete are Axis or Pro-Axis controlled.</li>
+<li><b>REVISED OBJECTIVE - Control Iraq or Persia</b> 2 PUs for each territory that is German controlled: Northwest Persia, Southern Persia, Iraq.</li>
 </ul>
 <b>RUSSIA</b>
 <li><b>REVISED OBJECTIVE - Lend Lease:</b> Russia no longer receives a 2 PU boost from an unprovoked Japanese declaration of war. Instead, the Mongolians automatically turn Russian as aforesaid.</li>
@@ -16107,7 +16108,11 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 <b>CHINA</b>
 <li><b>REVISED OBJECTIVE - Burma Road:</b> 3 PUs and may build artillery if the Allies control Eastern India (as opposed to “India”), Burma, Yunnan, and Szechwan.
 </ul>
-<b>Note - Chinese Guerillas:</b> As in Balanced Mod, at the start of China's turn, a Chinese infantry is spawned in each non-coastal, non-Manchurian Chinese territory under Axis control that is not garrisoned by at least one Axis land unit (i.e., infantry, marine, mech infantry, artillery, or armor). These "guerrillas" engage in combat wherever they are spawned and may not be moved until China's next turn. 
+<b>Note - Chinese Guerillas:</b> As in Balanced Mod, at the start of China's turn, a Chinese infantry is spawned in each non-coastal, non-Manchurian Chinese territory under Axis control that is not garrisoned by at least one Axis land unit other than an AA gun (i.e., infantry, marine, mech infantry, artillery, or armor). These "guerrillas" engage in combat wherever they are spawned and may not be moved until China's next turn. 
+<b>ITALY</b>
+<ul>
+<li><b>REVISED OBJECTIVE - Control Iraq or Persia</b> 2 PUs for each territory that is Italian controlled: Northwest Persia, Southern Persia, Iraq.</li>
+</ul>
 
  <br><br>
 
@@ -16224,6 +16229,11 @@ Updated notes to include three-plane carrier scramble restriction. <br>
 Added "non-Manchurian" clarification on Chinese Guerrilla rule. <br> 
 Added note on Atlantic naval restriction during U.S. neutrality. <br> <br>
 
+6.1
+<br><br>
+Updated Game Notes to clarify that AA guns do not constitute a "garrison" for purposes of the Chinese guerrilla rule. <br> 
+Updated Game Notes and Objectives Tab to specify "Southern Persia" for Germany and Italy's "Iraq/Persia" Objective. <br> 
+Corrected consmetic issues with sea zone numbering in Pacific. 
 
  <br> <br>
 
