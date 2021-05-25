@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="6.1"/>
+        <info name="WW2 Path to Victory" version="6.2"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -16022,7 +16022,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.1</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.2</b></span>
         </div>
 <br>
 <hr>
@@ -16054,7 +16054,7 @@ Except as otherwise stated below, the rules and game mechanics of Path to Victor
 
 <b>Land Scramble:</b> An airfield may scramble up to three planes to adjacent land battles in which there are already defending units (i.e., no scramble option for otherwise uncontested territories).<br><br>
 
-<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones/territories where there are defending surface warships or land units. No more than three planes may be scrambled from a particular sea zone in this manner. The number of planes that may be scrambled from a sea zone (up to the three-plane maximum) is determined by the number of undamaged carriers in that sea zone (one per carrier). This is true irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
+<b>Carrier Scramble:</b> A carrier may scramble one plane to battles in adjacent sea zones where there are defending surface warships or to battles in adjacent territories where there are defending units. No more than three planes may be scrambled from a particular sea zone in this manner. The number of planes that may be scrambled from a sea zone (up to the three-plane maximum) is determined by the number of undamaged carriers in that sea zone (one per carrier). This is true irrespective of how the planes may be allocated among the carriers. For example, if a sea zone contains an American carrier with two planes and a British carrier with no planes, the total number of planes that may be scrambled from that sea zone is two. Damaged carriers are disregarded for purpose of determining the scramble capacity of a sea zone (player enforced).<br><br>
 
 <b>Note - Return of Scrambled Planes:</b> A scrambling plane must return to the place from which it scrambled, unless that place is no longer a viable landing spot (either because the territory was taken, or the scrambling carrier was damaged/destroyed). If the place from which the plane scrambled is no longer a viable landing spot, the plane may land in any available spot that is adjacent to or in the battle zone itself. Note: Per the foregoing rule, scrambled planes may land in eligible Friendly-Neutral territories that have already been attacked by the other side (player enforced). <br><br>
 
@@ -16090,7 +16090,7 @@ Except as otherwise stated below, the national objectives in Path to Victory are
 
 <b>GERMANY</b>
 <ul>
-<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one German unit at the end of Germany's turn.</li> 
+<li><b>NEW OBJECTIVE - Atlantic Wall:</b> 3 PUs if Normandy and Holland Belgium are both Axis controlled at the beginning of Germany's turn and each garrisoned with at least one German land unit at the end of Germany's turn.</li> 
 <li><b>REVISED OBJECTIVE - Control of Balkans</b> 3 PUs (increased from 2 PUs) if Romania, Yugoslavia, Albania, Bulgaria, Greece, and Crete are Axis or Pro-Axis controlled.</li>
 <li><b>REVISED OBJECTIVE - Control Iraq or Persia</b> 2 PUs for each territory that is German controlled: Northwest Persia, Southern Persia, Iraq.</li>
 </ul>
@@ -16234,7 +16234,14 @@ Added note on Atlantic naval restriction during U.S. neutrality. <br> <br>
 <br><br>
 Updated Game Notes to clarify that AA guns do not constitute a "garrison" for purposes of the Chinese guerrilla rule. <br> 
 Updated Game Notes and Objectives Tab to specify "Southern Persia" for Germany and Italy's "Iraq/Persia" Objective. <br> 
-Corrected consmetic issues with sea zone numbering in Pacific. 
+Corrected consmetic issues with sea zone numbering in Pacific. <br> <br>
+
+6.2
+<br><br>
+Made cosmetic changes to map overlap, including fixing "Mexico" territory label. <br>
+Updated Game Notes to specify that carriers may scramble planes to land battles where there are any defending units. <br>
+Updated Game Notes to specify that Germany's Atlantic Wall objective requires the presence of land units. <br> <br>
+
 
  <br> <br>
 
