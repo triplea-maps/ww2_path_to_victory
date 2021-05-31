@@ -1,0 +1,3 @@
+map_name: ww2_path_to_victory
+games:
+- {game_name: WW2 Path to Victory, file_name: ww2_path_to_victory.xml}
