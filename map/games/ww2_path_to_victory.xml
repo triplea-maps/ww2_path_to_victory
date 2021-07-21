@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="6.2"/>
+        <info name="WW2 Path to Victory" version="6.3"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -676,7 +676,6 @@
                 <connection t1="United Kingdom" t2="112 Sea Zone"/>
                 <connection t1="New Brunswick Nova Scotia" t2="109 Sea Zone"/>
                 <connection t1="South West Africa" t2="Union of South Africa"/>
-                <connection t1="South West Africa" t2="73 Sea Zone"/>
                 <connection t1="South West Africa" t2="Rhodesia"/>
                 <connection t1="Ontario" t2="Alberta Saskatchewan Manitoba"/>
                 <connection t1="Ontario" t2="Central United States"/>
@@ -16022,7 +16021,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.2</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.3</b></span>
         </div>
 <br>
 <hr>
@@ -16033,7 +16032,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
 Path to Victory Discord Server: <b>https://discord.gg/kSbeKFa</b></span></div>
 </b><br><hr><br><br>
 
-<b>Nerd Herd Members</b>: Adam Discepola, Joseph Gumina, GeneralDisarray, Joe Evans, Adam Woodward <br><br>
+<b>Nerd Herd Members</b>: Adam D., Joseph G., GeneralDisarray, Joe E., Adam W. <br><br>
 
 <b>Acknowledgments:</b> A very special thanks to Hepps, Cernel, and Redrum for their ready assistance on coding and map creation questions. To Samstreeter, Nightrider, 90thLight (aka Mike) and everyone else who helped to play-test the map. And to Bung and Veqryn for creating an incredible Global 1940 map on TripleA, which formed the basis for much of the work we did on Path to Victory.<br><br>
 
@@ -16241,6 +16240,10 @@ Corrected consmetic issues with sea zone numbering in Pacific. <br> <br>
 Made cosmetic changes to map overlap, including fixing "Mexico" territory label. <br>
 Updated Game Notes to specify that carriers may scramble planes to land battles where there are any defending units. <br>
 Updated Game Notes to specify that Germany's Atlantic Wall objective requires the presence of land units. <br> <br>
+
+6.3
+<br><br>
+Removed erroneous connection between South West Africa and Sea Zone 73. <br> <br>
 
 
  <br> <br>
