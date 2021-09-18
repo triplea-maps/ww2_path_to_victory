@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="WW2 Path to Victory" version="6.3"/>
+        <info name="WW2 Path to Victory" version="6.4"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
   	<diceSides value="6"/>
@@ -16021,7 +16021,7 @@ value="infantry:artillery:mech_infantry:armour:aaGun:marine" count="1"/>
             <br/>
             <b>& Regularkid (aka Joe)</b>
             <br/><br>
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.3</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 6.4</b></span>
         </div>
 <br>
 <hr>
@@ -16152,7 +16152,7 @@ At the beginning of France's turn, if the following conditions are met, the Fran
 <br><br>
 Any non-French allied air units in Vichy-controlled territory are destroyed upon conversion of the territory to Vichy control.
 <br><br>
-With the exception of Southern France (see discussion of "Zone Libere" below), Vichy French territory operates the same way as other Pro-Axis Neutral territory. An Axis player may capture Vichy French territory and commandeer its forces by moving a land unit into the territory during the non-combat phase of his turn.
+With the exception of Southern France (see discussion of "Zone Libere" below), Vichy French territory operates the same way as other Pro-Axis Neutral territory. An Axis player may capture Vichy French territory and commandeer its forces by moving a land unit into the territory during the non-combat phase of his turn. While under Vichy control, the harbour in Southern France may be used by Axis forces to repair ships and boost movement.
 <br><br>
 Fly-over restrictions applicable to other Neutral territories do not apply to Vichy French territory.
 <br><br>
@@ -16245,6 +16245,10 @@ Updated Game Notes to specify that Germany's Atlantic Wall objective requires th
 <br><br>
 Removed erroneous connection between South West Africa and Sea Zone 73. <br> <br>
 
+6.4
+<br><br>
+Revised wording of Russia's "Lend Lease" national objectives in the Objectives Panel to specify that the objective is only satisfied if Russia is at war with the European Axis beyond Round 2. <br>
+Revised Game Notes to clarify that the harbor in Southern France may be used by Axis forces while under Vichy control. <br> <br>
 
  <br> <br>
 
